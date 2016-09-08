@@ -1,0 +1,108 @@
+body {
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	background-image: url("../images/grey-repeating-background.jpg");
+	background-repeat: repeat;
+}
+
+#header {
+	display: block;
+	text-align: center;
+	border-bottom: 3px solid #458FFF;
+}
+
+.headerItem {
+	display: inline-block;
+	font-size: 20px;
+	width: 15%;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+.currentHeaderItem {
+	background-color: #458FFF;
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#login {
+	width: 100%;
+	height: 15px;
+}
+
+.loginItem {
+	font-size: 10px;
+	display: inline-block;
+	float: right;
+	margin-left: 20px;
+}
+
+.headerItem:hover {
+	background-color: #73ABFF;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.container {
+	display: block;
+	width: 70%;
+	max-width: 1000px;
+	min-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	background-color: white;
+	min-height: 91vh;
+	border-radius: 20px;
+}
+
+a:link, :visited {
+	text-decoration: none;
+	color: #000;
+}
+
+#logo {
+	width: 100%;
+	font-size: 330%;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.executive {
+	border-radius: 5px;
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	height: 175px;
+}
+
+.execImage {
+	border-radius: 100%;
+	display: inline;
+	height: 175px;
+	width: 175px;
+	float: left;
+}
+
+.execTitle {
+	float: left;
+	font-size: 175%;
+	margin-top: 68px;
+	margin-left: 20px;
+}
+
+.blue {
+	border: 3px solid #458FFF;
+}
+
+.green {
+	border: 3px solid #19FF19;
+}
+
+.desc {
+	margin: 30px;
+}
