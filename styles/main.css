@@ -78,7 +78,6 @@ a:link, :visited {
 	margin-right: auto;
 	margin-top: 20px;
 	height: 180px;
-	border: 1px solid black;
 }
 
 .execImage {
@@ -91,7 +90,7 @@ a:link, :visited {
 
 .execTitle {
 	float: left;
-	font-size: 150%;
+	font-size: 25px;
 	margin-top: 72px;
 	margin-left: 20px;
 }
